@@ -1,0 +1,3 @@
+# Riddlegen
+
+Back when I was a Java developer, I used Hibernate as an ORM layer to persist my objects.  Hibernate was really flexible, but writing the XML files to map attributes to database rows with the same name was a real pain.  Middlegen was a useful tool that would inspect your database, and generate the boilerplate XML, which you could then customise by hand.  Now that ruby has a port of Hibernate, Ribernate (https://github.com/mortice/ribernate), we are going to need a similar tool to generate all of that XML.  Riddlegen is a ruby port of middlegen that solves this problem.  At the moment we are waiting to see what sort of XML schema ribernate will require, and then we will get to work on our XML generation tools.
